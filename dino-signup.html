@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signing Up!</title>
+    <link rel="stylesheet" href="signup-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+    <style>
+        .navigation {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid #bbb;
+        }
+
+        li:last-child {
+            border-right: none;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        .dino-dopt {
+            height: 20px;
+            margin-right: 0.5em;
+            vertical-align: bottom;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>You can make the <strong>change!</strong></header>
+    <ul class="navigation">
+        <li><a class="active" href="dino-intro.html">Home</a></li>
+        <li><a href="dino-signup.html">Sign up!</a></li>
+        <li><a href="dino-species.html">Our Variety!</a></li>
+        <li style="float:right"><a href="#dino-dopt">
+                <img src="images/dino-heading.jpg" alt="Dino-Dopt-Logo" class="dino-dopt" />Dino-Dopt
+            </a></li>
+    </ul>
+    <!-----image------>
+    <div class="main-header">
+        <img id="main-img" src="images/dino-dance.gif" alt="Carno doing some dance wiggle.">
+        <h2>Don't hesitate!</h2>
+        <h4>Fill out this application form to get started on the process!</h4>
+    </div>
+    <!-----Application Form----->
+
+    <div class="application-container">
+
+        <div class="applicant-info">
+
+            <fieldset class="space-form">
+                <legend>Applicant Information</legend>
+                <form action="#">
+                    <label class="seperation" for="firstName"> Enter Full Name
+                        <input type="text" name="lastName" placeholder="Enter Last Name" />
+                        <input type="text" name="firstName" placeholder="Enter First Name" required />
+                    </label>
+
+                    <br>
+                    <label class="seperation" for="contactInfo">Contact Information
+                        <input type="email" name="personalEmail" id="personal-email" placeholder="Enter Your Email"
+                            required />
+                        <input type="tel" name="cellphoneNumber" id="person-cell" placeholder="Enter Cellphone Number"
+                            required />
+                    </label>
+                    <br>
+
+                    <label class="seperation" for="address">Enter Address
+                        <input type="text" name="address" placeholder="Enter Street Address" />
+                        <input type="text" name="city" placeholder="Enter City">
+                        <input type="text" name="zipCode" placeholder="Enter Zipcode">
+                    </label>
+
+                    <legend>Living Situation</legend>
+                    <label for="radio1">Own</label>
+                    <input type="radio" name="radio" id="radio1">
+
+                    <label for="radio2">Rent</label>
+                    <input type="radio" name="radio" id="radio2">
+
+                    <label for="radio3">Other</label>
+                    <input type="radio" name="radio" id="radio3">
+                    <input type="text" name="other" placeholder="Please Specify.">
+            </fieldset>
+
+        </div>
+        <!------type of dino------>
+        <div class="dino-info">
+            <fieldset class="space-form">
+                <legend>Dino Information</legend>
+                <label class="seperation" for="dinoName"> Enter the name of the Dino you wish to adopt!
+                    <input type="text" name="dinoName" id="dino-Name" />
+                </label>
+                <br>
+                <legend>Enter the type of Dino</legend>
+                <label for="check1">Lizard</label>
+                <input type="checkbox" name="checkbox" id="check1">
+
+                <label for="check2">Mammal</label>
+                <input type="checkbox" name="checkbox" id="check2">
+
+                <label for="check3">Flyer</label>
+                <input type="checkbox" name="checkbox" id="check3">
+                <br>
+
+
+                <input class="btn" type="submit" name="submitForm" value="Submit Application!">
+
+                </label>
+            </fieldset>
+            </form>
+        </div>
+    </div>
+    <!-----Waiver Container------>
+    <div class="waiver-main">
+        <div class="waiver-header">
+            <h2>One More Thing!</h2>
+            <!-----img------>
+            <h3>After submitting the application form, <em>please sign up</em> for a liability form!</h3>
+            <h4>Just a hint of security of what you're signing up for!</h4>
+        </div>
+        <!----Liability Form----->
+        <div class="waiver-form">
+            <fieldset class="space-form">
+                <legend>Dinosaur Liability Waiver Form</legend>
+                <form action="#">
+                    <label class="seperation" for="firstName"> Enter Full Name
+                        <input type="text" name="firstName" placeholder="Enter First Name" required />
+                        <input type="text" name="lastName" placeholder="Enter Last Name" required />
+                    </label>
+
+
+
+                    <br>
+                    <label for="contactInfo" class="seperation">Contact Information
+                        <input type="email" name="personalEmail" id="personal-email" placeholder="Enter Your Email"
+                            required />
+                        <input type="tel" name="cellphoneNumber" id="person-cell" placeholder="Enter Cellphone Number"
+                            required />
+                    </label>
+                    <br>
+
+                    <label for="address" class="seperation">Enter Address
+                        <input type="text" name="address" placeholder="Enter Street Address" />
+                        <input type="text" name="city" placeholder="Enter City">
+                        <input type="text" name="zipCode" placeholder="Enter Zipcode">
+                    </label>
+            </fieldset>
+
+        </div>
+
+        <div class="waiver-box">
+            <p class="waiver-info">I accept full responsibility for any damage or harmful consequences that may result
+                from
+                adopting a Dinosaur. <br>
+
+                I understand that I waive the right to sue and seek compensation for damages that may arise from the
+                adoption
+                of
+                all types of Dinosaurs in question.<br>
+
+                I also acknowledge that all Dinosaurs rescued by Dino-Dopt are adopted on the condition that their users
+                accept full responsibility for any ill effects the Dinosaurs may cause. <br>
+            </p>
+            <div class="waiver-ack">
+                <fieldset class="space-form">
+
+                    <label class="seperation" for="firstName"> Enter Full Name That Confirms Acknowledgment
+                        <br> <br><input type="text" name="firstName" placeholder="Enter First Name" required />
+                        <input type="text" name="lastName" placeholder="Enter Last Name" required />
+                    </label>
+
+
+                    <br>
+
+                    <input class="btn" type="submit" name="submitWaiver" value="Submit Waiver!">
+
+            </div>
+
+        </div>
+
+        </fieldset>
+
+
+    </div>
+
+
+    </fieldset>
+    <!--------ending-------->
+    <div class="ending-header">
+    <h2 class="surprise-title">Thanks for the Support! You Rock!</h2>
+    <h3 class="surprise-hint">Let's Celebrate!</h3>
+    <div class="dance-sup"></div>
+        <!----------animation/img---------->
+        
+
+    </div>
+
+</body>
+
+</html>

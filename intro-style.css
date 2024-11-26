@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    text-align: center;
+    /*-----font----*/
+      font-family: "Knewave", system-ui;
+      font-weight: 400px;
+      font-style: normal;
+
+}
+
+body{
+  background-color: #233318;
+}
+
+/*----navigator-----*/
+.navigation {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+        border-right: 1px solid #bbb;
+      }
+      
+      li:last-child {
+        border-right: none;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+      
+      .active {
+        background-color: #04AA6D;
+      }
+      
+
+/*-----Logo----*/
+.dino-dopt {
+    height: 20px;
+    margin-right: 0.5em;
+    vertical-align: bottom;
+ }
+/*-----display of adoptions---*/
+
+.dino-cat{
+  border: 5px solid black;
+  text-align: center;
+  margin: 20px 20px;
+}
+.columns {
+  display: flex;
+}
+
+.info-col {
+  margin: 50px auto;
+  border: 5px solid black;
+  text-align: center;
+
+}
+/*-----seprating about dino section---*/
+.header, .header1 {
+  border: 1px solid red;
+  margin: auto;
+  width: 200px;
+}
+
+/*------a box around the adoptable dino-----*/
+
+.dino-dis {
+  background-color: #E6D55D;
+  border:0;
+  padding: 20px 20px;
+  box-sizing: border-box;
+
+}
+
+.info {
+  background-color: #E6D55D;
+  border:0;
+  padding: 20px 20px;
+  box-sizing: border-box;
+
+}
+
+/*------ending-section*/
+
+.ending-section {
+  background-color: #E6D55D;
+  border:0;
+  padding: 20px 20px;
+  box-sizing: border-box;
+
+
+;
+
+}
+
+

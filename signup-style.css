@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+/*-------font----*/
+        font-family: "Knewave", system-ui;
+        font-style: normal;
+        font-weight: 400;
+
+      
+
+}
+/*------Drop Down Btn.-----*/
+body {
+    background-color: #233318;
+}
+
+    #main-img {
+        width: 320px;
+        margin: auto;
+        padding: 5px 10px;
+        border: 0px;
+        border-radius: 5%;
+
+
+}
+
+.main-header {
+    background-color: #E6D55D;
+    border: 0px;
+    margin: auto 300px;
+    padding: 10px;
+    box-shadow: 2px 12px 10px 10px #252424;
+}
+
+.application-container {
+    background-color: #E6D55D;
+    border:0;
+    padding: 20px 20px;
+    box-sizing: border-box;
+
+}
+
+.applicant-info,
+.dino-info {
+    background-color: #fefae0;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.waiver-box>p {
+    background-color:#fefae0;
+    border: 2px solid #322C14;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 50px;
+}
+
+.waiver-form,
+.waiver-ack {
+    background-color: #fefae0;
+    padding: 10px 20px; 
+    margin: auto;
+    border: 2px solid #322C14;
+
+}
+
+.waiver-main {
+    background-color: #CA7622;
+    border: 2px solid #322C14;
+    margin: auto 80px;
+}
+
+.seperation {
+    display: block;
+    padding: 5px;
+    margin: auto;
+}
+
+.btn {
+    margin: 20px auto;
+    padding: 10px 20px;
+    color: white;
+    background-color: #AAA966;
+    border-radius: 5%;
+}
+
+fieldset{
+    border-radius: 5%;
+    border: 10px solid #CA4113;
+
+}
+
+legend {
+    border: 0px;
+}
+
+
+.ending-header {
+    background-color: #fefae0;
+    border: 2px solid #322C14;
+    margin: 50px auto;
+
+
+}
+
+/*------hover effect----*/
+
+.dance-sup {
+    width: 400px;
+    border: 5px solid #D9B4A5;
+    border-radius: 50%;
+    height: 400px;
+    background-image: url(images/dance.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.dance-sup:hover {
+    background-image: url(images/trex-dance.gif);
+}
